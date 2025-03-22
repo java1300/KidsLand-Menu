@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidsLand Menu</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Iconify CDN -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <!-- Google Fonts: Playfair Display, Dancing Script, Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Dancing+Script:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="text-center py-4 sticky-top">
+  <h1>KidsLand Menu</h1>
+</header>
+<main class="container my-4">
+  <div class="accordion" id="menuAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingBreakfast">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBreakfast" aria-expanded="false" aria-controls="collapseBreakfast">
+          <span class="iconify me-2" data-icon="mdi:egg"></span> Mëngjes / Појадок
+        </button>
+      </h2>
+      <div id="collapseBreakfast" class="accordion-collapse collapse" aria-labelledby="headingBreakfast" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Petulla shtëpie / Домашни мекици - 180den</li>
+            <li class="list-group-item">Mëngjes Kidsland me vezë dhe suxhuk / Kidsland појадок со суџук и јајце - 200den</li>
+            <li class="list-group-item">Omëlet me proshutë viçi dhe pule / Омлет со шунка, говедско и пилешко - 230den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingPizza">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePizza" aria-expanded="true" aria-controls="collapsePizza">
+          <span class="iconify me-2" data-icon="mdi:pizza"></span> Pizza / Пица
+        </button>
+      </h2>
+      <div id="collapsePizza" class="accordion-collapse collapse show" aria-labelledby="headingPizza" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Margherita Pizza - 200den</li>
+            <li class="list-group-item">Fungi Pizza - 240den</li>
+            <li class="list-group-item">Capricciosa Pizza - 260den</li>
+            <li class="list-group-item">Tuna Pizza - 270den</li>
+            <li class="list-group-item">Pepperoni Pizza - 250den</li>
+            <li class="list-group-item">Salami Pizza - 240den</li>
+            <li class="list-group-item">Prosciutto Pizza - 260den</li>
+            <li class="list-group-item">Quattro Stagioni Pizza - 280den</li>
+            <li class="list-group-item">Kidsland Pizza - 300den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSalads">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSalads" aria-expanded="false" aria-controls="collapseSalads">
+          <span class="iconify me-2" data-icon="mdi:leaf"></span> Sallatat / Салати
+        </button>
+      </h2>
+      <div id="collapseSalads" class="accordion-collapse collapse" aria-labelledby="headingSalads" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Sallatë Pule / Пилешка - 260den</li>
+            <li class="list-group-item">Sallatë Tuna / Туна - 260den</li>
+            <li class="list-group-item">Sallatë Greke / Грчка - 180den</li>
+            <li class="list-group-item">Sallatë Shope / Шопска - 170den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingChicken">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChicken" aria-expanded="false" aria-controls="collapseChicken">
+          <span class="iconify me-2" data-icon="mdi:food-drumstick"></span> Mish Pule / Пилешко Месо
+        </button>
+      </h2>
+      <div id="collapseChicken" class="accordion-collapse collapse" aria-labelledby="headingChicken" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">File Pule me sos kërpudhash / Пилешко филе со сос од печурки - 370den</li>
+            <li class="list-group-item">Stek i mbushur Kidsland / Полнет стек Kidsland - 550den</li>
+            <li class="list-group-item">Gishtërinj pule / Пилешки прсти - 300den</li>
+            <li class="list-group-item">Burrito me mish pule / Бурито со пилешки стек - 200den</li>
+            <li class="list-group-item">Club Sandwich Kidsland - 240den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingVeal">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVeal" aria-expanded="false" aria-controls="collapseVeal">
+          <span class="iconify me-2" data-icon="mdi:food-steak"></span> Mish Viçi / Телешко Месо
+        </button>
+      </h2>
+      <div id="collapseVeal" class="accordion-collapse collapse" aria-labelledby="headingVeal" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mish viçi / Телешкo mесо со сос од печурки - 870den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingAppetizers">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAppetizers" aria-expanded="false" aria-controls="collapseAppetizers">
+          <span class="iconify me-2" data-icon="mdi:silverware"></span> Shtesë / Екстра
+        </button>
+      </h2>
+      <div id="collapseAppetizers" class="accordion-collapse collapse" aria-labelledby="headingAppetizers" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Furnarina Кlasike / Класични Фурнарини - 70den</li>
+            <li class="list-group-item">Furnarina me kashkavall / Фурнарини со кашкавал - 100den</li>
+            <li class="list-group-item">Pomfrit M - 80den</li>
+            <li class="list-group-item">Pomfrit L - 100den</li>
+            <li class="list-group-item">Pomfrit M me djathë / Помфрит М со сирење - 110den</li>
+            <li class="list-group-item">Pomfrit L me djathë / Помфрит L со сирење - 130den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDesserts">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesserts" aria-expanded="false" aria-controls="collapseDesserts">
+          <span class="iconify me-2" data-icon="mdi:cake"></span> Ëmbëlsira / Десерти
+        </button>
+      </h2>
+      <div id="collapseDesserts" class="accordion-collapse collapse" aria-labelledby="headingDesserts" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Pallacinka / Палачинка - 150den</li>
+            <li class="list-group-item">Mini Pancakes - 180den</li>
+            <li class="list-group-item">Bakllavë Shtëpie / Домашна Баклава - 80den</li>
+            <li class="list-group-item">Kadaif me Krem / Кадаиф со крем - 100den</li>
+            <li class="list-group-item">Trileqe / Трилече - 70den</li>
+            <li class="list-group-item">Puding Kidsland / Трилече - 100den</li>
+            <li class="list-group-item">Cheesecake me fruta / Cheesecake со овошје - 100den</li>
+            <li class="list-group-item">Banana Split - 220den</li>
+            <li class="list-group-item">Tiramisu - 100den</li>
+            <li class="list-group-item">Torte Oreo - 150den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingMilkshakes">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMilkshakes" aria-expanded="false" aria-controls="collapseMilkshakes">
+          <span class="iconify me-2" data-icon="mdi:glass-cocktail"></span> Milkshake
+        </button>
+      </h2>
+      <div id="collapseMilkshakes" class="accordion-collapse collapse" aria-labelledby="headingMilkshakes" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Chocolate Milkshake - 120den</li>
+            <li class="list-group-item">Strawberry Milkshake - 120den</li>
+            <li class="list-group-item">Vanilla Milkshake - 120den</li>
+            <li class="list-group-item">Ice Coffee Milkshake - 120den</li>
+            <li class="list-group-item">Banana Milkshake - 120den</li>
+            <li class="list-group-item">Tropical Milkshake - 120den</li>
+            <li class="list-group-item">Forest Fruit Milkshake - 120den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDrinks">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDrinks" aria-expanded="false" aria-controls="collapseDrinks">
+          <span class="iconify me-2" data-icon="mdi:bottle-soda"></span> Pijet e Gazuara / Газирани Пијалоци
+        </button>
+      </h2>
+      <div id="collapseDrinks" class="accordion-collapse collapse" aria-labelledby="headingDrinks" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Coca Cola / Coca Cola Zero - 80den</li>
+            <li class="list-group-item">Fanta Orange - 80den</li>
+            <li class="list-group-item">Fanta Shokata - 80den</li>
+            <li class="list-group-item">Schweppes Bitterlemon - 80den</li>
+            <li class="list-group-item">Schweppes Tangerine - 80den</li>
+            <li class="list-group-item">Schweppes Tonic - 80den</li>
+            <li class="list-group-item">Sprite - 80den</li>
+            <li class="list-group-item">Gazoza - 80den</li>
+            <li class="list-group-item">Golden Eagle - 80den</li>
+            <li class="list-group-item">Red Rain - 80den</li>
+            <li class="list-group-item">Red Bull - 150den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingWater">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWater" aria-expanded="false" aria-controls="collapseWater">
+          <span class="iconify me-2" data-icon="mdi:water"></span> Ujë / Вода
+        </button>
+      </h2>
+      <div id="collapseWater" class="accordion-collapse collapse" aria-labelledby="headingWater" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Rosa 330ml - 50 den</li>
+            <li class="list-group-item">Rosa 750ml - 100 den</li>
+            <li class="list-group-item">Lajthiza 330ml - 50 den</li>
+            <li class="list-group-item">Lajthiza 750ml - 100 den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingJuices">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJuices" aria-expanded="false" aria-controls="collapseJuices">
+          <span class="iconify me-2" data-icon="mdi:fruit-citrus"></span> Lëngje / Сокови
+        </button>
+      </h2>
+      <div id="collapseJuices" class="accordion-collapse collapse" aria-labelledby="headingJuices" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Portokall / Портокал - 80 den</li>
+            <li class="list-group-item">Pjeshkë / Праска - 80 den</li>
+            <li class="list-group-item">Mollë / Јаболко - 80 den</li>
+            <li class="list-group-item">Multivitamin / Мултивитамин - 80 den</li>
+            <li class="list-group-item">Qershi / Вишње - 80 den</li>
+            <li class="list-group-item">Dredhzë / Јагода - 80 den</li>
+            <li class="list-group-item">Boronicë Jaffa/ Боровница - 80 den</li>
+            <li class="list-group-item">Boronicë Kidsland/ Боровница Kidsland - 60 den</li>
+            <li class="list-group-item">Ambasador - 60 den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingCoffees">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCoffees" aria-expanded="false" aria-controls="collapseCoffees">
+          <span class="iconify me-2" data-icon="mdi:coffee"></span> Kafe / Кафиња
+        </button>
+      </h2>
+      <div id="collapseCoffees" class="accordion-collapse collapse" aria-labelledby="headingCoffees" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Espresso - 60 den</li>
+            <li class="list-group-item">Makiato - 70 den</li>
+            <li class="list-group-item">Nescaffe - 80 den</li>
+            <li class="list-group-item">Kafe Turke - 50 den</li>
+            <li class="list-group-item">Amerikano - 70 den</li>
+            <li class="list-group-item">Latte - 100 den</li>
+            <li class="list-group-item">Ceshko - 60 den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTeas">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeas" aria-expanded="false" aria-controls="collapseTeas">
+          <span class="iconify me-2" data-icon="mdi:tea"></span> Çaj / Чаеви
+        </button>
+      </h2>
+      <div id="collapseTeas" class="accordion-collapse collapse" aria-labelledby="headingTeas" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Kamomile/Камилица - 50den</li>
+            <li class="list-group-item">Nane/Нане - 50den</li>
+            <li class="list-group-item">I gjelber/Зелен - 50den</li>
+            <li class="list-group-item">Frutave te malit/Шумско - 50den</li>
+            <li class="list-group-item">Dredhze & Vanille /Јагода & Ванила - 50den</li>
+            <li class="list-group-item">Hibiskus/Хибискус - 50den</li>
+            <li class="list-group-item">Brusnice/Брусница - 50den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
