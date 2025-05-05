@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidsLand Menu</title>
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts: Playfair Display, Dancing Script, Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Dancing+Script:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="py-4 sticky-top d-flex align-items-center justify-content-center">
+  <h1>KidsLand Menu</h1>
+</header>
+<main class="container my-4">
+  <div class="accordion" id="menuAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingBreakfast">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBreakfast" aria-expanded="false" aria-controls="collapseBreakfast">
+          <svg xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:egg" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M19.5 14.5A7.5 7.5 0 0 1 12 22a7.5 7.5 0 0 1-7.5-7.5C4.5 10.36 7.86 2 12 2s7.5 8.36 7.5 12.5"></path></svg> Mëngjes / Појадок
+        </button>
+      </h2>
+      <div id="collapseBreakfast" class="accordion-collapse collapse" aria-labelledby="headingBreakfast" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Petulla shtëpie / Домашни мекици - 210den</li>
+            <li class="list-group-item">Mëngjes Kidsland me vezë dhe suxhuk / Kidsland појадок со суџук и јајце - 230den</li>
+            <li class="list-group-item">Omëlet me proshutë viçi dhe pule / Омлет со шунка, говедско и пилешко - 260den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingPizza">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePizza" aria-expanded="false" aria-controls="collapsePizza">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:pizza" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M12 15a2 2 0 0 1-2-2a2 2 0 0 1 2-2a2 2 0 0 1 2 2a2 2 0 0 1-2 2M7 7c0-1.11.89-2 2-2a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2m5-5C8.43 2 5.23 3.54 3 6l9 16l9-16c-2.22-2.46-5.43-4-9-4"></path></svg>
+          Pizza / Пица
+        </button>
+      </h2>
+      <div id="collapsePizza" class="accordion-collapse collapse" aria-labelledby="headingPizza" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Margherita Pizza - 200den</li>
+            <li class="list-group-item">Fungi Pizza - 240den</li>
+            <li class="list-group-item">Capricciosa Pizza - 260den</li>
+            <li class="list-group-item">Tuna Pizza - 270den</li>
+            <li class="list-group-item">Pepperoni Pizza - 250den</li>
+            <li class="list-group-item">Salami Pizza - 240den</li>
+            <li class="list-group-item">Prosciutto Pizza - 260den</li>
+            <li class="list-group-item">Quattro Stagioni Pizza - 280den</li>
+            <li class="list-group-item">Kidsland Pizza - 300den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSalads">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSalads" aria-expanded="false" aria-controls="collapseSalads">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:leaf" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66l.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8"></path></svg> Sallatat / Салати
+        </button>
+      </h2>
+      <div id="collapseSalads" class="accordion-collapse collapse" aria-labelledby="headingSalads" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Sallatë Pule / Пилешка - 260den</li>
+            <li class="list-group-item">Sallatë Tuna / Туна - 260den</li>
+            <li class="list-group-item">Sallatë Greke / Грчка - 180den</li>
+            <li class="list-group-item">Sallatë Shope / Шопска - 170den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingChicken">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChicken" aria-expanded="false" aria-controls="collapseChicken">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:food-drumstick" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M20.16 12.73A6.27 6.27 0 0 0 19.09 3c-2.01-1.33-4.7-1.34-6.73-.03c-1.76 1.13-2.73 2.89-2.9 4.71c-.13 1.32-.63 2.55-1.55 3.47l-.03.03c-1.16 1.16-1.16 2.93-.07 4.01l.99.99a2.794 2.794 0 0 0 3.95 0c.97-.97 2.25-1.5 3.64-1.65c1.37-.15 2.71-.75 3.77-1.8m-13.9 7.13c.27.56.18 1.24-.29 1.7a1.49 1.49 0 0 1-2.55-.98a1.49 1.49 0 0 1-.98-2.55c.46-.46 1.15-.56 1.7-.29l2.48-2.43c.14.19.3.41.48.59l.99.99c.21.2.41.37.67.52z"></path></svg> Mish Pule / Пилешко Месо
+        </button>
+      </h2>
+      <div id="collapseChicken" class="accordion-collapse collapse" aria-labelledby="headingChicken" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">File Pule me sos kërpudhash / Пилешко филе со сос од печурки - 370den</li>
+            <li class="list-group-item">Stek i mbushur Kidsland / Полнет стек Kidsland - 550den</li>
+            <li class="list-group-item">Gishtërinj pule / Пилешки прсти - 300den</li>
+            <li class="list-group-item">Burrito me mish pule / Бурито со пилешки стек - 200den</li>
+            <li class="list-group-item">Club Sandwich Kidsland - 240den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingVeal">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVeal" aria-expanded="false" aria-controls="collapseVeal">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:food-steak" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M11.9 2C8 2 4.9 5.4 5 9.3c.1 2.6 1.6 4.8 3.7 5.9c1.4.7 2.3 2.1 2.3 3.6v.2c0 1.7 1.3 3 3 3c4 0 5-5 5-13c0 0 0-7-7.1-7M14 20c-.6 0-1-.4-1-1v-.2c0-2.2-1.3-4.3-3.3-5.4C8.1 12.6 7.1 11 7 9.2c0-1.3.5-2.7 1.4-3.7S10.6 4 11.8 4C16.7 4 17 8.2 17 9c0 9.9-1.7 11-3 11m1.8-12.4l-7.5 2.7Q8 9.85 8 9.1c0-.7.2-1.3.5-2l5.2-1.9c1.2.6 1.8 1.5 2.1 2.4m-2.9 7.5l2.8-1c-.1 1.5-.4 2.6-.6 3.3l-1.3.5c0-1-.3-1.9-.9-2.8M16 9.2c0 1.2 0 2.3-.1 3.2l-4 1.5c-.5-.5-1.1-1-1.8-1.3c-.4-.2-.8-.5-1.1-.8z"></path></svg> Mish Viçi / Телешко Месо
+        </button>
+      </h2>
+      <div id="collapseVeal" class="accordion-collapse collapse" aria-labelledby="headingVeal" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mish viçi me sos kërpudhash / Телешкo mесо со сос од печурки - 870den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingAppetizers">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAppetizers" aria-expanded="false" aria-controls="collapseAppetizers">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:silverware" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M8.1 13.34L3.91 9.16a4.01 4.01 0 0 1 0-5.66l7.02 7zm6.78-1.81L13.41 13l6.88 6.88l-1.41 1.41L12 14.41l-6.88 6.88l-1.41-1.41l9.76-9.76c-.71-1.53-.21-3.68 1.38-5.27c1.91-1.92 4.65-2.28 6.11-.82c1.47 1.47 1.11 4.21-.81 6.12c-1.59 1.59-3.74 2.09-5.27 1.38"></path></svg> Shtesë / Екстра
+        </button>
+      </h2>
+      <div id="collapseAppetizers" class="accordion-collapse collapse" aria-labelledby="headingAppetizers" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Furnarina Кlasike / Класични Фурнарини - 70den</li>
+            <li class="list-group-item">Furnarina me kashkavall / Фурнарини со кашкавал - 100den</li>
+            <li class="list-group-item">Pomfrit M - 80den</li>
+            <li class="list-group-item">Pomfrit L - 100den</li>
+            <li class="list-group-item">Pomfrit M me djathë / Помфрит М со сирење - 110den</li>
+            <li class="list-group-item">Pomfrit L me djathë / Помфрит L со сирење - 130den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDesserts">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesserts" aria-expanded="false" aria-controls="collapseDesserts">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:cake" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M11.5.5c.5.25 1.5 1.9 1.5 3S12.33 5 11.5 5S10 4.85 10 3.75S11 2 11.5.5m7 8.5C21 9 23 11 23 13.5c0 1.56-.79 2.93-2 3.74V23H3v-5.76c-1.21-.81-2-2.18-2-3.74C1 11 3 9 5.5 9H10V6h3v3zM12 16a2.5 2.5 0 0 0 2.5-2.5H16a2.5 2.5 0 0 0 2.5 2.5a2.5 2.5 0 0 0 2.5-2.5a2.5 2.5 0 0 0-2.5-2.5h-13A2.5 2.5 0 0 0 3 13.5A2.5 2.5 0 0 0 5.5 16A2.5 2.5 0 0 0 8 13.5h1.5A2.5 2.5 0 0 0 12 16"></path></svg> Ëmbëlsira / Десерти
+        </button>
+      </h2>
+      <div id="collapseDesserts" class="accordion-collapse collapse" aria-labelledby="headingDesserts" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Pallacinka / Палачинка - 150den</li>
+            <li class="list-group-item">Mini Pancakes - 180den</li>
+            <li class="list-group-item">Bakllavë Shtëpie / Домашна Баклава - 80den</li>
+            <li class="list-group-item">Kadaif me Krem / Кадаиф со крем - 100den</li>
+            <li class="list-group-item">Trileqe / Трилече - 70den</li>
+            <li class="list-group-item">Puding Kidsland - 100den</li>
+            <li class="list-group-item">Cheesecake me fruta / Cheesecake со овошје - 100den</li>
+            <li class="list-group-item">Banana Split - 220den</li>
+            <li class="list-group-item">Tiramisu - 100den</li>
+            <li class="list-group-item">Torte Oreo - 150den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingMilkshakes">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMilkshakes" aria-expanded="false" aria-controls="collapseMilkshakes">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:glass-cocktail" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="m7.5 7l-2-2h13l-2 2M11 13v6H6v2h12v-2h-5v-6l8-8V3H3v2z"></path></svg> Milkshake
+        </button>
+      </h2>
+      <div id="collapseMilkshakes" class="accordion-collapse collapse" aria-labelledby="headingMilkshakes" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Chocolate Milkshake - 120den</li>
+            <li class="list-group-item">Strawberry Milkshake - 120den</li>
+            <li class="list-group-item">Vanilla Milkshake - 120den</li>
+            <li class="list-group-item">Ice Coffee Milkshake - 120den</li>
+            <li class="list-group-item">Banana Milkshake - 120den</li>
+            <li class="list-group-item">Tropical Milkshake - 120den</li>
+            <li class="list-group-item">Forest Fruit Milkshake - 120den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDrinks">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDrinks" aria-expanded="false" aria-controls="collapseDrinks">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:bottle-soda" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M15 11v9a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-9a2 2 0 0 1 .6-1.42C11.1 7.89 11 4 11 4h-1V2h4v2h-1s-.1 3.89 1.4 5.58A2 2 0 0 1 15 11"></path></svg> Pijet e Gazuara / Газирани Пијалоци
+        </button>
+      </h2>
+      <div id="collapseDrinks" class="accordion-collapse collapse" aria-labelledby="headingDrinks" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Coca Cola / Coca Cola Zero - 80den</li>
+            <li class="list-group-item">Fanta Orange - 80den</li>
+            <li class="list-group-item">Fanta Shokata - 80den</li>
+            <li class="list-group-item">Schweppes Bitterlemon - 80den</li>
+            <li class="list-group-item">Schweppes Tangerine - 80den</li>
+            <li class="list-group-item">Schweppes Tonic - 80den</li>
+            <li class="list-group-item">Sprite - 80den</li>
+            <li class="list-group-item">Gazoza - 80den</li>
+            <li class="list-group-item">Golden Eagle - 80den</li>
+            <li class="list-group-item">Red Rain - 80den</li>
+            <li class="list-group-item">Red Bull - 150den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingWater">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWater" aria-expanded="false" aria-controls="collapseWater">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:water" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M12 20a6 6 0 0 1-6-6c0-4 6-10.75 6-10.75S18 10 18 14a6 6 0 0 1-6 6"></path></svg> Ujë / Вода
+        </button>
+      </h2>
+      <div id="collapseWater" class="accordion-collapse collapse" aria-labelledby="headingWater" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Rosa 330ml - 50den</li>
+            <li class="list-group-item">Rosa 750ml - 100den</li>
+            <li class="list-group-item">Lajthiza 330ml - 50den</li>
+            <li class="list-group-item">Lajthiza 750ml - 100den</li>
+            <li class="list-group-item">Ujë i Gazuar / Газирана Вода  Knjaz Milos - 50den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingJuices">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJuices" aria-expanded="false" aria-controls="collapseJuices">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:fruit-citrus" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M9 15.9c-2.1-.2-3.9-1-5-2.3c-.8 0-1.6-.5-1.9-1.3s0-1.6.7-2.1c.1-3 2.8-6.1 6.9-7.5S18 2.1 20 4.4c.8 0 1.6.5 1.9 1.3s0 1.6-.7 2.1q0 1.2-.6 2.4C19.4 9.5 18 9 16.5 9c-3.9 0-7.2 3-7.5 6.9m13 .6c0 3-2.5 5.5-5.5 5.5S11 19.5 11 16.5s2.5-5.5 5.5-5.5s5.5 2.5 5.5 5.5M13.3 18l2.3-1.5l-2.3-1.5q-.3.75-.3 1.5c0 .75.1 1 .3 1.5m2.7-.6l-2.1 1.4c.5.6 1.3 1 2.1 1.2zm0-4.3c-.8.1-1.6.5-2.1 1.2l2.1 1.4zm1 2.5l2.1-1.4c-.5-.6-1.3-1-2.1-1.2zm2.1 3.2L17 17.4v2.5c.8-.1 1.6-.5 2.1-1.1m.9-2.3q0-.75-.3-1.5l-2.3 1.5l2.3 1.5q.3-.75.3-1.5"></path></svg> Lëngje / Сокови
+        </button>
+      </h2>
+      <div id="collapseJuices" class="accordion-collapse collapse" aria-labelledby="headingJuices" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Portokall / Портокал - 80den</li>
+            <li class="list-group-item">Pjeshkë / Праска - 80den</li>
+            <li class="list-group-item">Mollë / Јаболко - 80den</li>
+            <li class="list-group-item">Multivitamin / Мултивитамин - 80den</li>
+            <li class="list-group-item">Qershi / Вишње - 80den</li>
+            <li class="list-group-item">Dredhzë / Јагода - 80den</li>
+            <li class="list-group-item">Ice Tea Pjeshkë / Праска - 80den</li>
+            <li class="list-group-item">Ice Tea Limon - 80den</li>
+            <li class="list-group-item">Boronicë Jaffa/ Боровница - 80den</li>
+            <li class="list-group-item">Boronicë Kidsland/ Боровница Kidsland - 60den</li>
+            <li class="list-group-item">Ambasador - 110den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingCoffees">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCoffees" aria-expanded="false" aria-controls="collapseCoffees">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:coffee" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M2 21h18v-2H2M20 8h-2V5h2m0-2H4v10a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"></path></svg> Kafe / Кафиња
+        </button>
+      </h2>
+      <div id="collapseCoffees" class="accordion-collapse collapse" aria-labelledby="headingCoffees" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Espresso - 60den</li>
+            <li class="list-group-item">Makiato - 70den</li>
+            <li class="list-group-item">Nescaffe - 80den</li>
+            <li class="list-group-item">Kafe Turke - 50den</li>
+            <li class="list-group-item">Amerikano - 70den</li>
+            <li class="list-group-item">Latte - 100den</li>
+            <li class="list-group-item">Ceshko - 60den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTeas">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeas" aria-expanded="false" aria-controls="collapseTeas">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:tea" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M4 19h16v2H4zM20 8V5h-2v3zm0-5c.6 0 1 .2 1.4.6s.6.9.6 1.4v3c0 .6-.2 1-.6 1.4s-.8.6-1.4.6h-2v3c0 1.1-.4 2-1.2 2.8S15.1 17 14 17H8c-1.1 0-2-.4-2.8-1.2S4 14.1 4 13V3h5v2.4L7.2 6.8c-.1.1-.2.3-.2.4v4.3c0 .3.2.5.5.5h4c.3 0 .5-.2.5-.5V7.2c0-.2-.1-.3-.2-.4L10 5.4V3z"></path></svg> Çaj / Чаеви
+        </button>
+      </h2>
+      <div id="collapseTeas" class="accordion-collapse collapse" aria-labelledby="headingTeas" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Kamomile/Камилица - 50den</li>
+            <li class="list-group-item">Nane/Нане - 50den</li>
+            <li class="list-group-item">I gjelber/Зелен - 50den</li>
+            <li class="list-group-item">Frutave te malit/Шумско - 50den</li>
+            <li class="list-group-item">Dredhze & Vanille /Јагода & Ванила - 50den</li>
+            <li class="list-group-item">Hibiskus/Хибискус - 50den</li>
+            <li class="list-group-item">Brusnice/Брусница - 50den</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOtherHotDrinks">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherHotDrinks" aria-expanded="false" aria-controls="collapseOtherHotDrinks">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:cup" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M18.32 8H5.67l-.44-4h13.54M3 2l2 18.23c.13 1 .97 1.77 2 1.77h10c1 0 1.87-.77 2-1.77L21 2z"></path></svg> Pije Tjera të Ngrohta / Други Топли Пијалоци
+        </button>
+      </h2>
+      <div id="collapseOtherHotDrinks" class="accordion-collapse collapse" aria-labelledby="headingOtherHotDrinks" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Çokollatë e nxehtë / Топло Чоколадо - 90den</li>
+            <li class="list-group-item">Çokollatë e nxehtë me plazma / Топло Чоколадо со плазма - 110den</li>
+            <li class="list-group-item">Salep / Салеп - 60den</li>
+            <li class="list-group-item">Nesquik - 60den</li>
+            <li class="list-group-item">Bambi - 50den</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingIceCream">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIceCream" aria-expanded="false" aria-controls="collapseIceCream">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:ice-cream" class="iconify me-2 iconify--mdi"><path fill="currentColor" d="M17.5 6.05C17.25 3.22 14.89 1 12 1S6.75 3.22 6.5 6.05C5.09 6.28 4 7.5 4 9c0 1.66 1.34 3 3 3l5 10l5-10c1.66 0 3-1.34 3-3c0-1.5-1.09-2.72-2.5-2.95M12 17.53l-3.11-6.22c.06-.05.11-.1.19-.15a5.5 5.5 0 0 0 5.84 0c.08.05.13.1.19.15z"></path></svg> Akullore / Сладолед
+        </button>
+      </h2>
+      <div id="collapseIceCream" class="accordion-collapse collapse" aria-labelledby="headingIceCream" data-bs-parent="#menuAccordion">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Vanilla / Ванила - 50den (per scoop)</li>
+            <li class="list-group-item">Chocolate / Чоколадa - 50den (per scoop)</li>
+            <li class="list-group-item">Dredhzë / Јагода - 50den (per scoop)</li>
+            <li class="list-group-item">Karamel / Карамел - 50den (per scoop)</li>
+            <li class="list-group-item">Stracciatella - 50den (per scoop)</li>
+            <li class="list-group-item">Mjaltë / Мед - 50den (per scoop)</li>
+            <li class="list-group-item">Fruta Mali  / Шумско овошје - 50den (per scoop)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer py-4 text-center">
+  <div class="container">
+    <h2 class="footer-title mb-3">Follow Us</h2>
+    <div class="social-icons d-flex justify-content-center">
+      <a href="https://www.instagram.com/kidslandplayground?igsh=MW1mZGZlNzYzMHkxZQ==" class="mx-3 social-icon" aria-label="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="iconify" fill="#4a3c31">
+          <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"></path>
+        </svg>
+      </a>
+      <a href="https://www.tiktok.com/@kidsland_playground?_t=ZM-8w6cr9d9jXB&_r=1" class="mx-3 social-icon" aria-label="TikTok">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="iconify" fill="#4a3c31">
+          <path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"></path>
+        </svg>
+      </a>
+      <a href="https://www.facebook.com/kidslandkumanovo?mibextid=LQQJ4d&mibextid=LQQJ4d" class="mx-3 social-icon" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="iconify" fill="#4a3c31">
+          <path d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z"></path>
+        </svg>
+      </a>
+    </div>
+    <p style="margin-top: 30px; font-size: 16px; color: #333;">
+      Developed by
+      <a href="https://java1300.github.io/Landing-Page/"
+         style="color: #e60000; text-decoration: none; font-weight: bold;"
+         target="_blank">
+        java
+      </a>
+    </p>
+
+  </div>
+</footer>
+<!-- Bootstrap JS -->
+<script defer src="vendor/bootstrap.bundle.min.js"></script></body>
+</html>
